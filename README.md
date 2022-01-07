@@ -1,5 +1,6 @@
 # MIPI Spy
  Hardware tools for non-invasively sniffing MIPI D-Phy links. 
+![MiPiSpyBoard](https://user-images.githubusercontent.com/7119414/148480887-2982e639-fccb-4534-9646-ab52dcca4bd4.png)
 
 In order to contribute useful data to the OpenHD project, I designed a simple PCB that splices two 15-pin MIPI FFCs end-to-end, to allow non-invasive, man-in-the-middle sniffing of the data. This serves several purposes:
 
