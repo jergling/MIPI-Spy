@@ -18,8 +18,8 @@ L Connector_Generic:Conn_01x26 J2
 U 1 1 61D9EF07
 P 4200 2050
 F 0 "J2" H 4200 3350 50  0000 C CNN
-F 1 "Conn_01x26" H 4200 650 50  0000 C CNN
-F 2 "" H 4200 2050 50  0001 C CNN
+F 1 "To Air Unit" H 4200 650 50  0000 C CNN
+F 2 "UserLib:DF56C-26S" H 4200 2050 50  0001 C CNN
 F 3 "~" H 4200 2050 50  0001 C CNN
 	1    4200 2050
 	1    0    0    -1  
@@ -29,22 +29,16 @@ L Connector_Generic:Conn_01x26 J1
 U 1 1 61DA9DE8
 P 1100 2150
 F 0 "J1" H 1100 3450 50  0000 C CNN
-F 1 "Conn_01x26" H 1100 750 50  0000 C CNN
-F 2 "" H 1100 2150 50  0001 C CNN
+F 1 "To Cam" H 1100 750 50  0000 C CNN
+F 2 "UserLib:DF56C-26S" H 1100 2150 50  0001 C CNN
 F 3 "~" H 1100 2150 50  0001 C CNN
 	1    1100 2150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1300 850  3650 850 
-Wire Wire Line
-	1300 950  1600 950 
-Wire Wire Line
-	1300 1050 3600 1050
-Wire Wire Line
 	1300 1150 1650 1150
 Wire Wire Line
-	1300 1250 3550 1250
+	1300 1250 1450 1250
 Wire Wire Line
 	1300 1350 1700 1350
 Wire Wire Line
@@ -83,7 +77,7 @@ U 1 1 61DB305B
 P 2650 4250
 F 0 "J3" H 2700 4950 50  0000 C CNN
 F 1 "Conn_02x13_Odd_Even" H 2700 3550 50  0000 C CNN
-F 2 "" H 2650 4250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x13_P2.54mm_Vertical" H 2650 4250 50  0001 C CNN
 F 3 "~" H 2650 4250 50  0001 C CNN
 	1    2650 4250
 	1    0    0    -1  
@@ -280,4 +274,38 @@ Wire Wire Line
 Connection ~ 3650 850 
 Wire Wire Line
 	3650 850  4000 850 
+Wire Wire Line
+	1300 1050 1450 1050
+Wire Wire Line
+	1300 950  1600 950 
+Wire Wire Line
+	1300 850  1450 850 
+Wire Wire Line
+	1450 850  1450 1050
+Connection ~ 1450 850 
+Wire Wire Line
+	1450 850  3650 850 
+Connection ~ 1450 1050
+Wire Wire Line
+	1450 1050 3600 1050
+Wire Wire Line
+	1450 1050 1450 1250
+Connection ~ 1450 1250
+Wire Wire Line
+	1450 1250 3550 1250
+$Comp
+L power:GND #PWR?
+U 1 1 61E21795
+P 1600 650
+F 0 "#PWR?" H 1600 400 50  0001 C CNN
+F 1 "GND" H 1600 500 50  0000 C CNN
+F 2 "" H 1600 650 50  0001 C CNN
+F 3 "" H 1600 650 50  0001 C CNN
+	1    1600 650 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 850  1450 650 
+Wire Wire Line
+	1450 650  1600 650 
 $EndSCHEMATC
