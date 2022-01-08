@@ -391,7 +391,7 @@
   (gr_line (start 71.7 23.7) (end 71.7 58.6) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 30 23.697239) (end 71.7 23.697239) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 30 58.6) (end 30 23.7) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 71.7 58.6) (end 30 58.6) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 71.7 58.585186) (end 30 58.585186) (layer Edge.Cuts) (width 0.1))
   (gr_text "DJI Coax only has 20 conductors (2 x 10 split)\nat least 6 pins must be gnd or power duplicated or left NC" (at 48.7 16.1) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
