@@ -15,7 +15,7 @@ Due to the sensitivity of LVDS to impedence changes and phase, the length and im
 
 ## Pi version (v1.0)
 - 15-FFC (1.0mm pitch) to 15-FFC (1.0mm pitch) F/F with 15-pin breakout header (2.54 mm pitch)
-- Requires 15-wire MIPI camera, 2 flex cables, and a host machine with support for the camera module
+- Requires 15-wire MIPI camera, 2 flex cables (one top-bottom, one top-top), and a host machine with support for the camera module
 - Awaiting validation samples
 
 ## DJI-A version (*not done*)
